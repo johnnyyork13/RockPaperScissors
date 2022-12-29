@@ -4,9 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
     <title>Rock Paper Scissors</title>
 </head>
 <body>
+    <div id="mainDiv">
+        <h1>Choose your weapon carefully...</h1>
+        <div id="resultDiv">
+            <h2 id="result"></h2>
+            <div id="displayWrapper">
+                <div id="displayPlayer"></div>
+                <div id="condition">BEGIN</div>
+                <div id="displayComputer"></div>
+            </div>
+            <button id="resetBtn">Reset Game</button>
+        </div>
+        <div id="choiceWrapper">
+            <div class="choiceDiv" id="rock">ROCK</div>
+            <div class="choiceDiv" id="paper">PAPER</div>
+            <div class="choiceDiv" id="scissors">SCISSORS</div>
+        </div>
+        <div id="score">
+            <div class="scoreContainer">
+                <h3>Player Score:</h3><h3 id="playerScore">0</h3>
+            </div>
+            <div class="scoreContainer">
+                <h3>Enemy Score:</h3><h3 id="computerScore">0</h3>
+            </div>
+            
+            
+        </div>
+    </div>
     
 
     <script src="javascript.js"></script>

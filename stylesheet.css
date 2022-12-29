@@ -1,0 +1,134 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainDiv {
+    border: 2px solid rgb(180, 1, 1);
+    width: 800px;
+    height: 900px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 152, 152);
+    border-radius: 10px;
+    box-shadow: 0 0 0.5em red;
+}
+
+#resultDiv {
+    border: 2px solid rgb(180, 1, 1);
+    background-color:rgb(246, 136, 136);
+    box-shadow: 0 0 0.5em red;
+    border-radius: 10px;
+    width: 700px;
+    height: 350px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#displayWrapper {
+    width: 700px;
+    height: 200px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#displayPlayer, #displayComputer {
+    visibility: hidden;
+    border: 2px solid rgb(180, 1, 1);
+    background-color:rgb(255, 176, 176);
+    font-weight: bolder;
+    box-shadow: 0 0 0.5em darkred;
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#displayPlayer {
+    margin: 50px;
+    margin-right: 0px;
+}
+
+#displayComputer {
+    margin: 50px;
+    margin-left: 0px;
+}
+
+#condition {
+    margin: 0px;
+    width: 130px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#resetBtn {
+    visibility: hidden;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: darkred;
+    font-weight: bolder;
+    color: white;
+}
+
+#choiceWrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 700px;
+    height: 150px;
+}
+
+.choiceDiv {
+    border: 2px solid rgb(180, 1, 1);
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.07 ease;
+    font-weight: bolder;
+    background-color:rgb(255, 176, 176);
+    
+}
+
+.choiceDiv:hover {
+    border: 2px solid rgba(119, 14, 14, 0.502);
+    box-shadow: 0 0 1em rgb(108, 7, 7);
+}
+
+#score {
+    width: 700px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+h3{
+    margin: 5px;
+    font-weight: bolder;
+}
+.scoreContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
